@@ -404,6 +404,18 @@ footer{
         font-size: 18px;
         max-width: 457px;  
     }
+    footer{
+        
+        background-image: 
+        linear-gradient(
+          rgba(77, 150, 169, 0.9), 
+          rgba(77, 150, 169, 0.9)
+        ),
+        url("./assets/tablet/image-footer.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
     
     .container-footer{
         display: flex;
@@ -448,6 +460,15 @@ footer{
 
     footer{
         padding:116px 40px;
+        background-image: 
+        linear-gradient(
+          rgba(77, 150, 169, 0.9), 
+          rgba(77, 150, 169, 0.9)
+        ),
+        url("./assets/mobile/image-footer.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 1;
     }
 } 
 @media only screen and (max-width: 369px) {
