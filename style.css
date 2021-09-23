@@ -4,12 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Red Hat Display';
     overflow-x: hidden;
+    background-color: #FAFAFA;
 }
 .container{
     margin: 0 auto;
+    
 }
 /* --------Header------- */
 .logo{
@@ -81,6 +84,11 @@ body {
     margin-bottom: 110px;
     text-align: center;
 }
+.btn-download,
+.btn-what-is-it{
+    font-family: 'Red Hat Display';
+}
+
 .btn-download:hover{
     cursor: pointer;
     background: #71C0D4;
@@ -214,6 +222,9 @@ footer{
     display: flex;
     align-items: center;
 }
+.container-footer button{
+    font-family: "Red Hat Display";
+}
 
 .container-footer h1{
     font-style: normal;
@@ -271,7 +282,7 @@ footer{
     height: 56px;
     margin: auto; 
     margin-bottom: 5vh;
-    background-color: white;
+    background-color: #FAFAFA;
     color: #87879D;
     line-height: 56px;
 }
@@ -293,7 +304,7 @@ footer{
     height: 56px;
     margin: auto; 
     margin-bottom: 5vh;
-    background-color: white;
+    background-color: #FAFAFA;
     position: relative;
     bottom: -9vh;
     color: #87879D;
@@ -440,7 +451,12 @@ footer{
     
 }
 @media only screen and (max-width: 376px) {
-    
+    .container-header h1{
+        font-size: 48px;
+    }
+    .container-header p{
+        font-size: 16px;
+    }
     .main .text h1{
         font-size: 32px;
         padding: 0 20px;
